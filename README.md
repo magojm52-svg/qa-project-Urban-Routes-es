@@ -1,48 +1,51 @@
-﻿# Proyecto de Automatización de Pruebas - Urban Routes
+﻿# 🚖 Urban Routes Automation Testing Framework
 
-## Descripción del Proyecto
-Este proyecto contiene pruebas automatizadas para la aplicación Urban Routes, una plataforma de solicitud de taxis. Las pruebas cubren el flujo completo de solicitud de un taxi, desde la configuración de direcciones hasta la confirmación del viaje.
+![QA Automation](https://img.shields.io/badge/Role-QA_Automation_Engineer-blue)
+![Python](https://img.shields.io/badge/Python-3.x-green)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-orange)
 
-## Tecnologías y Técnicas Utilizadas
-- **Python**: Lenguaje de programación principal
-- **Selenium WebDriver**: Para la automatización de navegadores web
-- **pytest**: Framework de testing
-- **Localizadores web**: Para identificar elementos en la página
-- **Patrón Page Object Model**: Para organizar el código de las pruebas
+## 📝 Descripción del Proyecto
+Este proyecto desarrolla un framework de pruebas automatizadas de extremo a extremo (E2E) para la plataforma **Urban Routes**. La suite de pruebas valida el flujo crítico de negocio: desde la entrada de direcciones hasta la asignación de un conductor, asegurando la integridad de las integraciones de pago y servicios adicionales.
 
-## Funcionalidades Probadas
-Las pruebas automatizadas cubren los siguientes escenarios:
-- Configuración de direcciones de origen y destino
-- Selección de tarifa Comfort
-- Ingreso de número de teléfono
-- Agregado de tarjeta de crédito
-- Envío de mensaje al conductor
-- Solicitud de manta y pañuelos
-- Solicitud de helados
-- Verificación del modal de búsqueda de taxi
+## 🛠️ Tecnologías y Arquitectura
+* **Lenguaje:** Python
+* **Automatización:** Selenium WebDriver
+* **Framework de Pruebas:** Pytest
+* **Patrón de Diseño:** **Page Object Model (POM)**
+    * *Beneficio:* Separación de la lógica de negocio de los selectores, facilitando el mantenimiento y la escalabilidad del código.
 
-## Instrucciones para Ejecutar las Pruebas
+## 🧪 Escenarios de Prueba (Coverage)
+El proyecto automatiza con éxito las siguientes acciones:
+1.  **Configuración de Ruta:** Direcciones de origen y destino.
+2.  **Lógica de Tarifas:** Selección del modo 'Comfort'.
+3.  **Registro de Usuario:** Ingreso de teléfono y validación dinámica vía SMS (intercepción de logs).
+4.  **Gestión de Pagos:** Registro de tarjeta de crédito (manejo de pérdida de foco en CVV).
+5.  **Requerimientos Especiales:** Escritura de mensajes al conductor y selección de artículos (mantas y helados).
+6.  **Validación de UI:** Verificación de modales de búsqueda y asignación de conductor.
 
-### Prerrequisitos
-- Python 3.x instalado
-- Navegador web (Chrome recomendado)
-- Conexión a internet
+## 📂 Estructura del Proyecto
+```text
+├── main.py          # Clase TestUrbanRoutes (Scripts de prueba)
+├── pages.py         # Clase UrbanRoutesPage (Lógica y localizadores)
+├── data.py          # Diccionario de datos de prueba y configuración
+└── README.md        # Documentación del framework
 
-### Pasos para ejecutar
-1. Clona el repositorio en tu máquina local
-2. Instala las dependencias necesarias
-3. Actualiza la URL del servidor en el archivo `data.py`
-4. Ejecuta las pruebas con el comando: `pytest main.py`
+🚀 Instalación y Ejecución
+Prerrequisitos
+• Python 3.x
+• Google Chrome & ChromeDriver
+Pasos
+1. Clonar el repositorio:
+Bash
+git clone [https://github.com/tu-usuario/urban-routes-automation.git](https://github.com/tu-usuario/urban-routes-automation.git)
+cd urban-routes-automation
+2. Instalar dependencias:
+Bash
+pip install selenium pytest
+3. Configuración: Actualiza la URL del servidor en el archivo data.py con el entorno activo.
+4. Ejecutar pruebas:
+Bash
+pytest main.py
 
-## Estructura del Proyecto
-- `main.py`: Contiene las pruebas automatizadas y la clase UrbanRoutesPage
-- `data.py`: Almacena los datos de configuración y URLs
-- `README.md`: Documentación del proyecto
-
-## Autor
-Antonio de Jesús Morales Vázquez
-
-## Notas Adicionales
-- Las pruebas están diseñadas para ejecutarse en un entorno de testing específico
-- Asegúrate de tener la URL correcta del servidor antes de ejecutar las pruebas
-
+Autor: Antonio de Jesús Morales Vázquez
+www.linkedin.com/in/antonio-de-jesús-morales-vázquez-1qa
