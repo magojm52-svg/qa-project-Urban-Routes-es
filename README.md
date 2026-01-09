@@ -1,5 +1,4 @@
 <img width="1366" height="768" alt="resultado_test" src="https://github.com/user-attachments/assets/4863063b-2ba1-43b3-b9e9-fe354e0653ee" />﻿# 🚖 Urban Routes Automation Testing Framework
-![Uploading resultado_test.png…]()
 
 ![QA Automation](https://img.shields.io/badge/Role-QA_Automation_Engineer-blue)
 ![Python](https://img.shields.io/badge/Python-3.x-green)
@@ -30,6 +29,7 @@ El proyecto automatiza con éxito las siguientes acciones:
 ├── pages.py         # Clase UrbanRoutesPage (Lógica y localizadores)
 ├── data.py          # Diccionario de datos de prueba y configuración
 └── README.md        # Documentación del framework
+```
 
 🚀 Instalación y Ejecución
 Prerrequisitos
@@ -76,9 +76,7 @@ Evidencias Técnicas Observadas:
 • Manejo de UI Dinámica: Se validó el cierre de modales de pago y la activación de elementos tipo switch con validación de propiedades CSS (background-color).
 • Estabilidad Asíncrona: El modal de búsqueda de automóvil se gestionó mediante esperas inteligentes, evitando falsos negativos por carga lenta.
 
-<img width="1366" height="768" alt="resultado_test" src="https://github.com/user-attachments/assets/f83ec828-0cf9-45d2-83a8-01c7e55f129f" />
-
-
+![Uploading resultado_test.png…]()
 
 Autor: Antonio de Jesús Morales Vázquez
 www.linkedin.com/in/antonio-de-jesús-morales-vázquez-1qa
