@@ -76,7 +76,9 @@ Evidencias Técnicas Observadas:
 • Estabilidad Asíncrona: El modal de búsqueda de automóvil se gestionó mediante esperas inteligentes, evitando falsos negativos por carga lenta.
 
 
-![Evidencia](docs/resultado_test.png)
+<p align="center">
+  <img src="docs/resultado_test.png" alt="Evidencia de Pruebas" width="700">
+</p>
 
 
 Autor: Antonio de Jesús Morales Vázquez
