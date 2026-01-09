@@ -47,5 +47,33 @@ pip install selenium pytest
 Bash
 pytest main.py
 
+
+📊 Resultados de Ejecución
+Las pruebas se ejecutaron utilizando Pytest, validando la estabilidad y velocidad del framework.
+Resumen de la Suite:
+• Tests Totales: 9 escenarios de extremo a extremo (E2E).
+• Estado: 100% Pass (Éxito).
+• Tiempo de Ejecución: 15.99 segundos (Optimizado con esperas explícitas).
+Log de Consola:
+Plaintext
+main.py::TestUrbanRoutes::test_set_route PASSED
+main.py::TestUrbanRoutes::test_select_comfort_tariff PASSED
+main.py::TestUrbanRoutes::test_set_phone_number PASSED
+main.py::TestUrbanRoutes::test_add_credit_card PASSED
+main.py::TestUrbanRoutes::test_set_options PASSED
+main.py::TestUrbanRoutes::test_set_message_for_driver PASSED
+main.py::TestUrbanRoutes::test_set_blanket_and_tissues PASSED
+main.py::TestUrbanRoutes::test_order_ice_cream PASSED
+main.py::TestUrbanRoutes::test_request_taxi_modal PASSED
+
+================ 9 passed in 15.99s ================
+Evidencias Técnicas Observadas:
+• Intercepción de Red: Se recuperó con éxito el código de confirmación SMS desde los logs de rendimiento del navegador mediante la herramienta helpers.py.
+• Manejo de UI Dinámica: Se validó el cierre de modales de pago y la activación de elementos tipo switch con validación de propiedades CSS (background-color).
+• Estabilidad Asíncrona: El modal de búsqueda de automóvil se gestionó mediante esperas inteligentes, evitando falsos negativos por carga lenta.
+
+
+
+
 Autor: Antonio de Jesús Morales Vázquez
 www.linkedin.com/in/antonio-de-jesús-morales-vázquez-1qa
