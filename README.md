@@ -76,7 +76,9 @@ Evidencias Técnicas Observadas:
 • Manejo de UI Dinámica: Se validó el cierre de modales de pago y la activación de elementos tipo switch con validación de propiedades CSS (background-color).
 • Estabilidad Asíncrona: El modal de búsqueda de automóvil se gestionó mediante esperas inteligentes, evitando falsos negativos por carga lenta.
 
-<img width="1366" height="768" alt="resultado_test" src="https://github.com/user-attachments/assets/4863063b-2ba1-43b3-b9e9-fe354e0653ee"
+
+<img width="1366" height="768" alt="resultado_test" src="https://github.com/user-attachments/assets/724ebb83-e7ca-43da-949b-0723b21b4047" />
+
 
 Autor: Antonio de Jesús Morales Vázquez
 www.linkedin.com/in/antonio-de-jesús-morales-vázquez-1qa
