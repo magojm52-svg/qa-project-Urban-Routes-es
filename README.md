@@ -34,7 +34,14 @@ El proyecto automatiza con éxito las siguientes acciones:
 Prerrequisitos
 • Python 3.x
 • Google Chrome & ChromeDriver
+
+
+
+
+
+
 Pasos
+
 1. Clonar el repositorio:
 Bash
 git clone [https://github.com/tu-usuario/urban-routes-automation.git](https://github.com/tu-usuario/urban-routes-automation.git)
@@ -72,7 +79,7 @@ Evidencias Técnicas Observadas:
 • Manejo de UI Dinámica: Se validó el cierre de modales de pago y la activación de elementos tipo switch con validación de propiedades CSS (background-color).
 • Estabilidad Asíncrona: El modal de búsqueda de automóvil se gestionó mediante esperas inteligentes, evitando falsos negativos por carga lenta.
 
-
+![Resultados de la prueba](./docs/resultado_test.png)
 
 
 Autor: Antonio de Jesús Morales Vázquez
