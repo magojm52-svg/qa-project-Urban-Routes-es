@@ -74,6 +74,7 @@ Evidencias Técnicas Observadas:
 • Intercepción de Red: Se recuperó con éxito el código de confirmación SMS desde los logs de rendimiento del navegador mediante la herramienta helpers.py.
 • Manejo de UI Dinámica: Se validó el cierre de modales de pago y la activación de elementos tipo switch con validación de propiedades CSS (background-color).
 • Estabilidad Asíncrona: El modal de búsqueda de automóvil se gestionó mediante esperas inteligentes, evitando falsos negativos por carga lenta.
+
 ![Resultados de la prueba](docs/resultado_test.png) 
 
 
